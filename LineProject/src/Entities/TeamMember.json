@@ -1,0 +1,30 @@
+{
+    "name": "TeamMember",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "bio": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "name",
+      "role"
+    ]
+  }
+  
+  

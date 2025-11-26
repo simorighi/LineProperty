@@ -1,0 +1,39 @@
+{
+    "name": "ContactRequest",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "property_interest": {
+        "type": "string",
+        "description": "ID o nome della propriet\u00e0 di interesse"
+      },
+      "message": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "nuovo",
+          "contattato",
+          "in_trattativa",
+          "concluso"
+        ],
+        "default": "nuovo"
+      }
+    },
+    "required": [
+      "name",
+      "email",
+      "message"
+    ]
+  }
+  
+  
